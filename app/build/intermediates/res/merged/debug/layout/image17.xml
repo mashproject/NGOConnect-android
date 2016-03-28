@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:id="@+id/imageView20"
+        android:src="@drawable/goal16"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="GOAL 16:PEACE AND JUSTICE"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_vertical"
+        android:textColorHighlight="#c24444"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:inputType="textImeMultiLine"
+        android:padding="10dp"
+        android:layout_below="@+id/imageView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goal 16 of the Sustainable Development Goals is dedicated to the promotion of peaceful and inclusive societies for sustainable development, the provision of access to justice for all, and building effective, accountable institutions at all levels.
+
+"       android:textSize="20sp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/imageButton"
+        android:typeface="serif"
+        android:paddingLeft="10dp"
+        android:textColor="#2f3a8b" />
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/button_connect"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff" />
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.slidingmenu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Two"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Three"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Four"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Five"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Six"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Seven"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Eight"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Nine"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Ten"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Eleven"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Twelve"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Thirteen"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Fourteen"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Fifteen"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Sixteen"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Seventeen"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Eighteen"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
